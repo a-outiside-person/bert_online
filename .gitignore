@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Large model weights (Hugging Face / BERT weights)
+data/bert_pretrain/pytorch_model.bin
+*.pt
+*.pth
+*.bin
+*.model
+*.ckpt
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Data and Logs
+data/
+!data/data/class.txt
+!data/data/vocab.pkl
+app.log
